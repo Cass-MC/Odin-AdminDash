@@ -25,12 +25,6 @@ html, body {
     grid-template-rows: 2fr 3fr;
     grid-template-columns: 3fr 1fr;
 }
-.header p.hello {
-    font-size: 12px;
-}
-.header h1 {
-    font-size: 20px;
-}
 
 .searchbar , .notifs {
     display: flex;
@@ -39,7 +33,7 @@ html, body {
     margin-left: 40px;
 }
 .searchbar input {
-    width: 80%;
+    width: 90%;
     height: 30px;
     background-color: gray;
     border: 0px;
@@ -50,8 +44,34 @@ html, body {
     width: 220px;
 }
 
+.greeting {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 90px;
+    margin-left: 40px;
+}
+.greeting h1 {
+    font-size: 20px;
+}
+
+.headerButtons {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.headerButtons button {
+    width: 100px;
+    background-color: skyblue;
+    color: white;
+    border: 0px;
+    border-radius: 15px;
+    height: 30px;
+}
+
 .sidebar {
-    
     background-color: skyblue;
     grid-column: 1/2;
     grid-row: 1/3;
