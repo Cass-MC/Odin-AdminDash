@@ -85,9 +85,22 @@ html, body {
     align-items: center;
     font-size: 20px;
     font-weight: bold;
+    padding-bottom: 20px;
+    gap: 10px;
 }
-.sideLogo img {
+.sidebar img {
     filter: invert(100%);
+}
+.sidebar ul {
+    list-style: none;
+    margin-left: -25px;
+}
+.sidebar ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    padding-bottom: 20px;
 }
 
 .dashWrapper {
